@@ -1,0 +1,70 @@
+/* .list{
+   background-color: red;
+}
+
+h2{
+    color:red
+}
+/* like wise we can have id attribute as well
+that will select all the element of with a particular
+id , usually id is unique per element in an html */
+/* .heading{
+    color:paleturquoise
+}
+/* selects the h2 with attribute onclick set  */
+/* h2[onclick]
+{
+    color:black
+}
+
+to select all the element use   */
+
+
+/* ul{
+    background-color: purple;
+}
+
+h2{
+    color:blue;
+    font-weight:200;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+.outside{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    /* 2nd one will be given priority */
+    background-color: brown !important; 
+    border:10px solid yellow;
+    /* sets the top border as 0 */
+    border-top: 0px;
+    /* margin is part that is outside the border and padding is part
+    that is inside the border  */
+    margin:40px;
+}
+
+/* 20% of the element on which you are present on */
+.inside{
+    background-color: grey;
+    width: 20%; 
+    height: 20%;
+    border: 10px solid pink;
+    /* can custom set all the side of the border */
+    border-width: 5px 5px 5px 5px;
+    /* works on inside of the element  */
+    /* provides padding around the element present inside that div */
+    padding:60px 10px 40px 10px
+    
+}
+
+
+/* first look at the element having a class of .outside and then we look at its children */
+.outside .inside{
+    background-color: pink;
+}
+/* appilies only to first  */
+.outside > .inside{
+    background-color: yellow;
+}
