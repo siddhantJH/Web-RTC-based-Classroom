@@ -64,7 +64,7 @@ h2{
 .outside .inside{
     background-color: pink;
 }
-/* appilies only to first  */
+/* appilies only to first childern */
 .outside > .inside{
     background-color: yellow;
 }
