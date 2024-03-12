@@ -1,0 +1,96 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* Make container cover the full viewport height */
+}
+
+.column {
+    flex: 1; /* Make both columns flexible */
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.column:nth-child(1) {
+    flex: 20%; /* Set first column to cover 20% */
+}
+
+.column:nth-child(2) {
+    flex: 80%; /* Set second column to cover 80% */
+}
+.colors{
+    height:15%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+ 
+.tools{
+    display:grid;
+    width: 100%;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 20px;
+}
+.pen,.eraser,.scale,.brush,.crop{
+    width:100%;
+    height: 20px;
+    border:0.5px solid black;
+}
+.col{
+    height: 20px;
+    width: 20.5px;
+    border:0.5px solid black;
+}
+
+.yellow { background-color: yellow; }
+.red { background-color: red; }
+.blue { background-color: blue; }
+.violet { background-color: violet; }
+.orange { background-color: orange; }
+.green { background-color: green; }
+.indigo { background-color: indigo; }
+.light-blue { background-color: lightblue; }
+.pink { background-color: pink; }
+.cyan { background-color: cyan; }
+.lime { background-color: lime; }
+.teal { background-color: teal; }
+.deep-orange { background-color: deeporange; }
+.amber { background-color: amber; }
+.deep-purple { background-color: deeppurple; }
+.brown { background-color: brown; }
+.grey { background-color: grey; }
+.blue-grey { background-color: bluegrey; }
+.black { background-color: black; }
+.white { background-color: white; }
+.aqua { background-color: aqua; }
+.beige { background-color: beige; }
+.chartreuse { background-color: chartreuse; }
+.coral { background-color: coral; }
+.crimson { background-color: crimson; }
+.gold { background-color: gold; }
+.lavender { background-color: lavender; }
+.magenta { background-color: magenta; }
+.olive { background-color: olive; }
+.peach { background-color: peach; }
+.plum { background-color: plum; }
+.silver { background-color: silver; }
+.tan { background-color: tan; }
+.turquoise { background-color: turquoise; }
+
+.drawing-pannel{
+    width: 100%;
+    height: 100%;
+    border: 1px solid green;
+    margin:0px;
+}
+
+.column{
+    background-color: #F5F5DC;
+}
+
+
