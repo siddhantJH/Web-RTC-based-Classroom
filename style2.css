@@ -25,7 +25,7 @@ body, html {
 }
 .colors{
     height:15%;
-    width: 100%;
+    width: 65%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
